@@ -113,11 +113,8 @@ export default class extends React.Component {
           <Heading caps fit lineHeight={1}>it is always is easier to get started in small steps</Heading>
         </Slide>
         <Slide>
-          <Heading caps fit lineHeight={1}>why make it?</Heading>
+          <Heading caps fit lineHeight={1}>demo</Heading>
         </Slide>
-
-
-
       </Deck>
     );
   }
