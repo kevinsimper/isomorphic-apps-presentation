@@ -7,16 +7,17 @@ import {
 
 import Interactive from "./interactive";
 
-export default class extends React.Component {
+export default class Presentation extends React.Component {
   render() {
     return (
       <Deck transitionDuration={800}>
         <Slide>
           <Heading caps fit lineHeight={1}>The Land of</Heading>
-          <Heading caps fit lineHeight={1}>Isomorpfic apps</Heading>
+          <Heading caps fit lineHeight={1}><s>Isomorpfic</s></Heading>
+          <Heading caps fit lineHeight={1}>Universal apps</Heading>
         </Slide>
         <Slide>
-          <Heading caps fit lineHeight={1}>wtf is a isomorphic app?</Heading>
+          <Heading caps fit lineHeight={1}>wtf is a universal app?</Heading>
         </Slide>
         <Slide>
           <Heading caps fit lineHeight={1}>why make it?</Heading>
@@ -26,8 +27,9 @@ export default class extends React.Component {
           <Heading caps fit lineHeight={1}>its faster, <S type='italic'>nah</S></Heading>
         </Slide>
         <Slide>
-          <Heading caps fit lineHeight={1}>but your user will &lt;3 you!</Heading>
+          <Heading caps fit lineHeight={1}>but your user will ❤️ you!</Heading>
           <Appear>
+            <Heading caps fit lineHeight={1}>faster load</Heading>
             <Heading caps fit lineHeight={1}>Better SEO</Heading>
             <Heading caps fit lineHeight={1}>Screenreaders</Heading>
           </Appear>
@@ -36,7 +38,7 @@ export default class extends React.Component {
           <Heading caps fit lineHeight={1}>so what does it take?</Heading>
         </Slide>
         <Slide>
-          <Heading caps size={2}>javascript runtime (node.js, jvm)</Heading>
+          <Heading caps size={2}>node.js</Heading>
           <Heading caps size={2}>webpack</Heading>
           <Heading caps size={2}>react.js</Heading>
           <Heading caps size={2}>good planning</Heading>
@@ -52,8 +54,11 @@ export default class extends React.Component {
           <Heading caps fit lineHeight={1}>loaders, huh?</Heading>
         </Slide>
         <Slide>
-          <Heading caps lineHeight={1} size={2}>Introducing</Heading>
+          <Heading caps lineHeight={1} size={2}>Introducing 🎉</Heading>
           <Heading caps fit lineHeight={1}>server-side-rendering-first</Heading>
+          <Appear>
+            <Heading size={1}>💩</Heading>
+          </Appear>
         </Slide>
         <Slide>
           <Heading caps fit lineHeight={1}>web development has gone fully circle</Heading>
@@ -78,23 +83,40 @@ export default class extends React.Component {
           <Heading caps fit lineHeight={1}>a node.js app anymore!!</Heading>
         </Slide>
         <Slide>
-          <Heading caps fit lineHeight={1}>we need to pack frontend</Heading>
-          <Heading caps fit lineHeight={1}>we need to pack backend</Heading>
+          <Heading caps fit lineHeight={1} size={2}>we need to webpack</Heading>
+          <Heading caps fit lineHeight={1}>our frontend</Heading>
+          <Heading caps fit lineHeight={1} size={2}>we need to webpack</Heading>
+          <Heading caps fit lineHeight={1}>our backend</Heading>
         </Slide>
         <Slide>
-          <Heading caps fit lineHeight={1}>now our backend is difficult to debug</Heading>
-          <Heading caps fit lineHeight={1}>so we need to sourcemap there also</Heading>
+          <Heading caps fit lineHeight={1}>backend needs</Heading>
+          <Heading caps fit lineHeight={1}>sourcemaps also</Heading>
+          <Heading>👻</Heading>
         </Slide>
         <Slide>
-          <Heading caps fit lineHeight={1} size={2}>so how deeper a hole can we</Heading>
-          <Heading caps fit lineHeight={1}>possible dig ourself in?</Heading>
+          <Heading caps fit lineHeight={1}>HOW MUCH DEEPER?</Heading>
         </Slide>
         <Slide>
-          <Heading caps fit lineHeight={1}>why not optimise our images when we got started anyways?</Heading>
-          <Heading caps fit lineHeight={1} textFont={'tertiary'}>import styles from ‘./logo.svg'</Heading>
+          <Heading caps fit>why not images?</Heading>
+          <Heading>🤔</Heading>
         </Slide>
         <Slide>
-          <Heading caps fit lineHeight={1}>making the responsive web responsive again</Heading>
+          <Heading caps fit lineHeight={1} textFont={'monospace'}>import Logo from "./logo.svg"</Heading>
+        </Slide>
+        <Slide>
+        <Heading caps fit lineHeight={1}>automatic optimization</Heading>
+        </Slide>
+        <Slide>
+          <Heading caps fit lineHeight={1}>making the responsive web</Heading>
+          <Heading caps fit lineHeight={1}>responsive again</Heading>
+        </Slide>
+        <Slide>
+          <Heading caps fit textFont={'monospace'}>/public/images</Heading>
+          <Heading caps fit lineHeight={1}>no dumpster anymore</Heading>
+          <Heading caps fit lineHeight={1}>for images</Heading>
+        </Slide>
+        <Slide>
+          <Heading caps fit>Instant rendering</Heading>
         </Slide>
         <Slide bgImage={'https://pmcvariety.files.wordpress.com/2014/07/youtube-logo-full_color.jpg?w=670&h=377&crop=1'} bgDarken={0.5}>
           <Heading caps fit lineHeight={1} textColor={'white'}>saw an increase</Heading>
@@ -111,6 +133,19 @@ export default class extends React.Component {
         <Slide>
           <Heading caps fit lineHeight={1}>start simple</Heading>
           <Heading caps fit lineHeight={1}>it is always is easier to get started in small steps</Heading>
+        </Slide>
+        <Slide>
+          <Heading caps fit lineHeight={1}>don't boilerplate</Heading>
+          <Heading caps size={2}>simply don't! 🤕🔫</Heading>
+        </Slide>
+        <Slide>
+          <Heading caps fit lineHeight={1}>you end with 💩</Heading>
+          <Heading caps size={2}>lots of unnessary things</Heading>
+        </Slide>
+        <Slide>
+          <Heading caps fit lineHeight={1}>don't aim for perfect</Heading>
+          <Heading caps size={2} fit lineHeight={1}>80 / 20</Heading>
+          <Heading caps size={2} lineHeight={1}>🙌</Heading>
         </Slide>
         <Slide>
           <Heading caps fit lineHeight={1}>demo</Heading>
